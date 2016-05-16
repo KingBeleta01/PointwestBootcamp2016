@@ -1,0 +1,11 @@
+<suite name="Amazon Test Suite" verbose="1" preserve-order="true">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Amazon Test"   >
+    <packages>
+      <package name="amazonTest" />
+   </packages>
+ </test>
+</suite>
